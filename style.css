@@ -1,0 +1,113 @@
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: whitesmoke;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    color: white;
+}
+
+#satu .pesawat {
+    background-image: url(img/pic1.png);
+    Padding-top: 13rem;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+    background-color: white;
+}
+
+#dua .row {
+    margin: 0 !important;
+}
+
+#dua .grid {
+    width: 20% !important;
+}
+
+#tiga {
+    padding: 3% 0;
+}
+
+.banner {
+    background-color: white;
+}
+
+.banner .content1 img {
+    width: 70%;
+    margin: 50px 200px 50px 200px;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+
+.banner .content1 p {
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 30pt;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 1550px;
+    left: 480px;
+    z-index: 2;
+
+}
+
+.banner .content1 font {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 15pt;
+    position: absolute;
+    top: 1620px;
+    left: 520px;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.banner .content1 h2 {
+    color: white;
+    font-size: 10pt;
+    position: absolute;
+    top: 1670px;
+    left: 1050px;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+.banner .content1 h3 {
+    color: white;
+    font-size: 10pt;
+    position: absolute;
+    top: 1690px;
+    left: 1050px;
+    letter-spacing: 3px;
+    z-index: 3;
+}
+
+#lima .abu{
+    background-color: #e5e5e5 !important;
+}
